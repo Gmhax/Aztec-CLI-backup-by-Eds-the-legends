@@ -1,5 +1,9 @@
 # Aztec-CLI-backup-by-Eds-the-legends
 
+Stop the node:
+```
+docker stop $(docker ps -q --filter "ancestor=aztecprotocol/aztec") && docker rm $(docker ps -a -q --filter "ancestor=aztecprotocol/aztec")
+```
 
 1. Remove the Aztec installation directory
 ```
