@@ -3,7 +3,7 @@
 ## If you still encounter a missed status, dont worry, ma-bro I got you.
 
 
-Stop the node:
+- Stop the node:
 ```
 docker stop $(docker ps -q --filter "ancestor=aztecprotocol/aztec") && docker rm $(docker ps -a -q --filter "ancestor=aztecprotocol/aztec")
 ```
@@ -120,7 +120,7 @@ docker compose logs -fn 1000
 
 
 
-## Done..
+# Done Ma-bro..
 
 
 
