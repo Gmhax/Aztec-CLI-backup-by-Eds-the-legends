@@ -116,7 +116,7 @@ services:
     volumes:
       - /root/.aztec/alpha-testnet/data/:/data
 ```
-
+- You dont need to change anything. 
 - Run Node Docker:
 ```
 docker compose up -d
