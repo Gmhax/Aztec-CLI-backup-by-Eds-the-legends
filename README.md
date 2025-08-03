@@ -5,7 +5,11 @@
 
 - Stop the node:
 ```
+# Stop docker containers
 docker stop $(docker ps -q --filter "ancestor=aztecprotocol/aztec") && docker rm $(docker ps -a -q --filter "ancestor=aztecprotocol/aztec")
+
+# Stop screens
+screen -ls | grep -i aztec | awk '{print $1}' | xargs -I {} screen -X -S {} quit
 ```
 - Delete old data
 ```
