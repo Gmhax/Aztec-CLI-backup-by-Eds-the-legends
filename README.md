@@ -149,6 +149,7 @@ ping -c 5 google.com
 ```
 timedatectl status
 ```
+<img width="579" height="123" alt="image" src="https://github.com/user-attachments/assets/a36e10b4-2321-4126-b7cd-729a2ec528c8" />
 
 
 
