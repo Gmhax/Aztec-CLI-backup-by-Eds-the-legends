@@ -1,6 +1,7 @@
 # Aztec attestation 
 
-## If you still encounter a missed status, dont worry, ma-bro I got you.
+## Still seeing “missed” on attestation? Chill, bro — I got you.
+<img width="902" height="436" alt="image" src="https://github.com/user-attachments/assets/7215f16f-ca0a-4b84-8ca1-ab94da40b746" />
 
 
 - Stop the node:
