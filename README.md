@@ -133,8 +133,22 @@ docker compose logs -fn 1000
 
 
 
+## Note: If you followed this guide but still encounter a “missed” status on attestation, your VPS provider might be the issue.
+Check your internet connection, latency, or run a system time and date status check using:edatectl
+```
+ping -c 5 google.com
+```
+| **Ping (ms)**  | **Meaning**                                 | **Status**    |
+| -------------- | ------------------------------------------- | ------------- |
+| **1–30 ms**    | Excellent — ultra-fast connection           | ✅ Very good   |
+| **30–70 ms**   | Good — typical for fiber or strong Wi-Fi    | ✅ Good        |
+| **70–150 ms**  | Average — usable, but some delay may occur  | ⚠️ Acceptable |
+| **150–300 ms** | Slow — noticeable lag in real-time apps     | ❌ Poor        |
+| **300+ ms**    | Very high latency — not ideal for most uses | ❌ Very poor   |
 
-
+```
+timedatectl status
+```
 
 
 
