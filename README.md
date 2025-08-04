@@ -59,7 +59,7 @@ aztec
 aztec-up latest
 aztec-up 1.2.0
 ```
-4. Enable Firewall & Open Ports
+4. Enable the firewall and open the required ports (if you’ve already done this before, you can ignore this step).
 ```
 # Firewall
 ufw allow 22
